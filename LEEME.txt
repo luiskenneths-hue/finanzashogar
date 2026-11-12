@@ -1,0 +1,17 @@
+FINANZAS DEL HOGAR - proyecto Android (Capacitor)
+
+Sube TODO el contenido de esta carpeta a un repositorio de GitHub (rama main).
+GitHub compila el APK solo, con el archivo .github/workflows/build.yml.
+
+Si al subir la carpeta no aparece .github (los archivos que empiezan con punto a veces se omiten),
+crea el archivo a mano: en el repositorio -> Add file -> Create new file ->
+nombre:  .github/workflows/build.yml   y pega el contenido del archivo build.yml que te di aparte.
+
+Resultado: pestaña Actions -> ejecución en verde, y el APK aparece en Releases.
+
+Notas
+- keystore/finanzas.keystore es la llave con la que se firma el APK. Es la que permite instalar
+  cada versión nueva ENCIMA de la anterior sin perder tus datos. Mantén el repositorio PRIVADO y
+  no cambies ni borres ese archivo.
+- Tus datos no están en este proyecto. Se restauran dentro de la app con Mis_datos_Finanzas_Hogar.json.
+- Para cambiar la app, edita www/index.html; cada cambio que subas genera un APK nuevo.

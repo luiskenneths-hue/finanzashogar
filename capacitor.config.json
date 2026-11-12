@@ -1,0 +1,11 @@
+{
+  "appId": "com.finanzashogar.app",
+  "appName": "Finanzas del hogar",
+  "webDir": "www",
+  "plugins": {
+    "SystemBars": {
+      "insetsHandling": "css",
+      "initialViewportFitValueHint": "cover"
+    }
+  }
+}
